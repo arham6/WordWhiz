@@ -63,7 +63,6 @@ const Game = () => {
     console.log("user exists and no loading component")
     return (
         <div className="App">
-          <h1>Wordle Game</h1>
   
           {error && <p>{error}</p>}
           {word && <Wordle/>}

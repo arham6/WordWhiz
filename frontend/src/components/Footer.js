@@ -10,7 +10,7 @@ const Footer = () => {
           
           <div className="footer-section">
             {/* <h3>Contact Us</h3> */}
-            <p>Contact Email: info@wordle.com</p>
+            <p>Contact Email: info@wordwhiz.com</p>
             {/* <p>Phone: +1 (123) 456-7890</p> */}
           </div>
           <div className="footer-section">
@@ -31,6 +31,8 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <strong>&copy; {new Date().getFullYear()} WordWhiz. All rights reserved.</strong>
+          <br/>
+          <p></p>
         </div>
       </div>
     </footer>

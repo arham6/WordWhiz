@@ -281,3 +281,27 @@ form.signup, form.login {
     border-color: #333;
   }
 }
+
+.wordwhiz-img{
+  width: 320px;
+  height: 320px;
+}
+
+.play-button{
+  background-color: #1aac83;
+  color: white;
+  padding: 12px 21px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+}
+
+.play-button:hover{
+
+  background-color: #158666;
+}

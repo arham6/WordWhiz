@@ -9,6 +9,7 @@ export default function Wordle() {
   const {name:solution,hint,meaning}=word
   const { currentGuess, handleKeyup, guesses, isCorrect, turn,usedKeys } = useWordle(solution)
   const [showModal,setShowModal]=useState(false);
+  const [showHint,setShowHint]=useState(false);
   useEffect(() => {
     console.log(solution, hint, meaning)
     window.addEventListener('keyup', handleKeyup)
@@ -29,6 +30,8 @@ export default function Wordle() {
 
   return (
     <div>
+      {turn>2?<button onClick={(e)=>setShowHint(true)} className='play-button' style={{margin:'30px'}}>Hint</button>:null}
+      {showHint && <div style={{marginBottom:'20px'}} className='hint'>{hint}</div>}
       {/* <div>solution- {solution}</div> */}
       {/* <div>Current Guess - {currentGuess}</div> */}
       <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />

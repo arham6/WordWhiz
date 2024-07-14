@@ -17,6 +17,8 @@ const Home = () => {
       Unlock the mystery word in WordWhiz !<br/>
       can you crack the code in six tries ?
       </h1>
+
+      <img className='wordwhiz-img' src="WordwhizImage.png" alt="WordwhizIMG"/>
       
       {user ? (
         <div>
