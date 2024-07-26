@@ -23,6 +23,9 @@ WordWhiz is a captivating word-guessing game where players attempt to identify a
 
 ![image](https://github.com/user-attachments/assets/7218e3d1-e87e-4af0-b63c-bdecac8db795)
 
+![image](https://github.com/user-attachments/assets/381b50fc-4bbb-4b3c-a456-da2b4a072528)
+
+
 
 ## Features
 
@@ -32,17 +35,25 @@ WordWhiz offers a more versatile and feature-rich experience compared to traditi
 ### Hints System
 Players receive a hint after three incorrect guesses, helping them to guess the word more efficiently. This feature ensures that the game remains challenging yet accessible.
 
-![Hint Feature](path_to_image_hint)
+![image](https://github.com/user-attachments/assets/54f3c719-eb6b-4c69-b3b9-4cddc51d9d5d)
+
+![image](https://github.com/user-attachments/assets/b30948f0-6f83-42d7-a686-17497003f3ad)
+
 
 ### Multiple Words per Day
 Unlike other word games that limit players to one word per day, WordWhiz allows players to guess multiple words each day. This feature keeps the game exciting and ensures continuous engagement.
 
-![Multiple Words](path_to_image_multiple_words)
+![image](https://github.com/user-attachments/assets/4dc1c9ba-8573-4daa-b521-28dce01c4cc8)
+
+![image](https://github.com/user-attachments/assets/43bb20b7-7908-4224-8626-7cb1a4f75a4e)
+
+
 
 ### Dynamic Word Length
 Players can choose to guess words of varying lengths (5, 6, or 7 letters). This dynamic word length feature adds variety to the gameplay, making it more challenging and fun.
 
-![Dynamic Word Length](path_to_image_dynamic_word_length)
+![image](https://github.com/user-attachments/assets/42006ee5-d27f-4ea8-8ecc-b908fee06989)
+
 
 ### Secure Signup and Login
 - **Signup**: The signup process enforces strong password policies and checks for unique email and username. After a successful signup, a JWT token is generated from the backend and stored in the user's local storage to prevent the need for repeated logins.
@@ -51,6 +62,8 @@ Players can choose to guess words of varying lengths (5, 6, or 7 letters). This 
 ![image](https://github.com/user-attachments/assets/9a4ee3ab-4a5a-4d65-ac3f-f6f2f5f3755e)
 
 ![image](https://github.com/user-attachments/assets/86240c77-ba45-490b-b629-e19a92f47d62)
+
+![image](https://github.com/user-attachments/assets/ce1166dd-fd2d-4d8a-bc72-ba48ed8378bd)
 
 
 ## Technologies Used
