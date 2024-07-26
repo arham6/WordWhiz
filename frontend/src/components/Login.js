@@ -28,6 +28,8 @@ const Login = () => {
 
   return (
     <>
+    <br/>
+    
     <form className="login" onSubmit={handleSubmit}>
       <h3>Login to play</h3>
 
@@ -41,6 +43,9 @@ const Login = () => {
       {error && <div className="error">{error}</div>}
     </form>
     {isLoading && <Loading msg='Logging in' />}
+    <br/>
+    
+    <br/>
     </>
   );
 }

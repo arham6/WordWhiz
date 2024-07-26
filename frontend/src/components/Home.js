@@ -22,13 +22,13 @@ const Home = () => {
       
       {user ? (
         <div>
-          <h2>{`Welcome, ${user.username}!`}</h2>
+          <h2 style={{marginTop:'0'}}>{`Welcome, ${user.username}!`}</h2>
           <Link to='/play' className="play-button">Play Now</Link>
         </div>
       ) : (
         <div>
-        <Link to='/play' className="play-button">Play Now</Link>
-        <p>Please log in to play the game.</p>
+          <Link to='/play' className="play-button">Play Now</Link>
+          <p>(Please log in to play the game)</p>
         </div>
       )}
     </div>

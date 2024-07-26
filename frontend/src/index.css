@@ -30,6 +30,7 @@ header {
 }
 header .container {
   max-width: 1400px;
+  height: 75px;
   margin: 0 auto;
   padding: 10px 20px;
   display: flex;
@@ -285,6 +286,7 @@ form.signup, form.login {
 .wordwhiz-img{
   width: 320px;
   height: 320px;
+  margin-bottom: 40px;
 }
 
 .play-button{
@@ -294,7 +296,7 @@ form.signup, form.login {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 10px;
   transition-duration: 0.4s;
   font-weight: 700;
   border: none;
